@@ -12,8 +12,9 @@ We deploy Active Directory within a home lab setting using Oracle VirtualBox. By
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b>
 - <b>Server 2019</b>
+- <b>Windows 10</b>
+
 
 
 <h2>Program walk-through:</h2>
