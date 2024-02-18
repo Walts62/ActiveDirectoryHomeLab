@@ -1,6 +1,4 @@
-<h1>JActive Directory Home Lab</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
 We deploy Active Directory within a home lab setting using Oracle VirtualBox. By establishing a domain controller to host Active Directory, we leverage group policies, enabling a multi-user client to obtain an IP address and facilitate communication with both the private and external network of the domain.
