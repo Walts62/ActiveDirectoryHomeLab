@@ -96,6 +96,79 @@ Added to "Domain Admins":  <br/>
 <img src="https://i.imgur.com/ZqzgaWs.png" height="50%" width="50%" alt="ADDS_Client Steps"/>
 <br />
 <br />
+Logout, then log back in under our domain admin account
+<br />
+<br />
+Login:  <br/>
+<img src="https://i.imgur.com/V4oMvQ0.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Proceed to the server manager, under "add roles and features" install "Remote Access," this contains our NAT/RAS services
+<br />
+<br />
+Remote Access:  <br/>
+<img src="https://i.imgur.com/Hi1DQuo.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Installation:  <br/>
+<img src="https://i.imgur.com/EKxpRL2.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Proceed to configure NAT
+<br />
+<br />
+Tools, Routing and Remote Access:  <br/>
+<img src="https://i.imgur.com/68Hzufx.png" height="30%" width="30%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Configure and Enable Routing and Remote Access:  <br/>
+<img src="https://i.imgur.com/8CM9twm.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Restarted Server
+<br />
+<br />
+Configure NAT:  <br/>
+<img src="https://i.imgur.com/7AUR1eW.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+After NAT has been configured, proceed to the server manager, under "add roles and features" to install DHCP
+<br />
+<br />
+Installation of DHCP:  <br/>
+<img src="https://i.imgur.com/xJdEg8z.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Proceed to open DHCP Services and add a new scope to the DHCP  
+<br />
+<br />
+New Scope:  <br/>
+<img src="https://i.imgur.com/5trsCbF.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Under DHCP, "Authorize" DHCP to respond to client requests
+<br />
+<br />
+Authorization:  <br/>
+<img src="https://i.imgur.com/rT44i4o.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Preloaded a list of accounts into the active directory users to simulate a corporate environment
+<br />
+<br />
+Populated Users:  <br/>
+<img src="https://i.imgur.com/cYDEg0O.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Promote server to domain controller:  <br/>
+<img src="https://i.imgur.com/qOLo7bJ.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Restarted Server
+<br />
+<br />
+Login Prompt:  <br/>
+<img src="https://i.imgur.com/7KzkknF.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 
  
 <!--
