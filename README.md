@@ -12,7 +12,7 @@ We deploy Active Directory within a home lab setting using Oracle VirtualBox. By
 
 <h2>Environments Used </h2>
 
-- <b>Server 2019</b>
+- <b>Windows Server 2019</b>
 - <b>Windows 10</b>
 
 
@@ -20,32 +20,41 @@ We deploy Active Directory within a home lab setting using Oracle VirtualBox. By
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Launched VirtualBox and created our Windows Server client: <br/>
+<img src="https://i.imgur.com/vkRVDVc.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Configured Two Network Interface Cards, one will connect our domain controller to the external network (which will run NAT), while the second will connect to the internal VM network.
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First NIC:  <br/>
+<img src="https://i.imgur.com/BuE2bZj.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Second NIC: <br/>
+<img src="https://i.imgur.com/2DSGs0U.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Installation of Windows Server 2019:  <br/>
+<img src="https://i.imgur.com/RJabM3i.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+After setup, we opened the network settings to reconfigure our NICs
+<br />
+<br />
+Reconfigured NICs:  <br/>
+<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+
 <br />
 <br />
 Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 <br />
 <br />
 Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 </p>
 
 <!--
