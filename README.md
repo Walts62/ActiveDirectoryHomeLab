@@ -217,7 +217,7 @@ Our client has now been connected to the domain and is recieving it's IP address
 <br />
 <br />
 <img src="https://i.imgur.com/6yNzsaz.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
- 
+</p>
 <!--
  ```diff
 - text in red
