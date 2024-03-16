@@ -143,10 +143,10 @@ Proceed to open DHCP Services and add a new scope to the DHCP
 <br />
 <br />
 New Scope:  <br/>
-<img src="https://i.imgur.com/5trsCbF.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<img src="https://i.imgur.com/5trsCbF.png" height="40%" width="40%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Under DHCP, "Authorize" DHCP to respond to client requests
+After adding a new scope to the DHCP, it needs to be authorized DHCP to respond to client requests
 <br />
 <br />
 Authorization:  <br/>
@@ -157,19 +157,66 @@ Preloaded a list of accounts into the active directory users to simulate a corpo
 <br />
 <br />
 Populated Users:  <br/>
-<img src="https://i.imgur.com/cYDEg0O.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+<img src="https://i.imgur.com/2RlJDy6.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Promote server to domain controller:  <br/>
-<img src="https://i.imgur.com/qOLo7bJ.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
+Open up VirtualBox and create a new VM to house our Windows 10 Client
 <br />
 <br />
-Restarted Server
+New Windows 10 client:  <br/>
+<img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Login Prompt:  <br/>
-<img src="https://i.imgur.com/7KzkknF.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
-
+Configured an Interal NIC for our Windows 10 client
+<br />
+<br />
+Network Interface Card:  <br/>
+<img src="https://i.imgur.com/Sq2VZRU.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+New Windows 10 client:  <br/>
+<img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Open up the client and install Windows 10
+<br />
+<br />
+Installation of Windows 10:  <br/>
+<img src="https://i.imgur.com/9PAjbBI.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+New Windows 10 client:  <br/>
+<img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Configured an Interal NIC for our Windows 10 client
+<br />
+<br />
+After Windows 10 is installed on our client, go to system, "Rename this PC(Advanced)" rename to, "CLIENT1" and join our domain
+<br />
+<br />
+Joining domain:  <br/>
+<img src="https://i.imgur.com/bKIeHc9.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Proceed back to the domain controller, under DHCP "address leases" we can see our client has an IP address
+<br />
+<br />
+Leased Address:  <br/>
+<img src="https://i.imgur.com/AP1eXo7.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Within our windows 10 client, open up command prompt and type "ipconfig," we can see our client's IPv4 address matches that of the DHCP leased address
+<br />
+<br />
+Client Command Prompt:  <br/>
+<img src="https://i.imgur.com/6uWLruT.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
+<br />
+<br />
+Our client has now been connected to the domain and is recieving it's IP address from the DHCP of the domain controller and can succesfully ping the external network through our NAT configuration
+<br />
+<br />
+<img src="https://i.imgur.com/6yNzsaz.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
  
 <!--
  ```diff
