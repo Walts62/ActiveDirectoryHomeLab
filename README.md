@@ -1,7 +1,7 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-In our home lab environment, we implement Active Directory using Oracle VirtualBox to create our Windows Server (our domain controller) and Windows 10 Client. Through the establishment of a domain controller dedicated to hosting Active Directory, we are able to implement policies and protocols to allow a multi-user client to acquire an IP address and seamlessly communicate with both the private and external networks within the domain.
+In our home lab environment, we implement Active Directory using Oracle VirtualBox to create our Windows Server (domain controller) and Windows 10 (Client). Through the establishment of a domain controller dedicated to hosting Active Directory, we are able to implement policies and protocols to allow a multi-user client to acquire an IP address and seamlessly communicate with both the private and external networks within the domain.
 
 
 <h2>Languages and Utilities Used</h2>
