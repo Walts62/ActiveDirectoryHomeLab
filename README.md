@@ -166,29 +166,15 @@ New Windows 10 client:  <br/>
 <img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Configured an Interal NIC for our Windows 10 client
+Proceed to configured an Interal NIC for our Windows 10 client
 <br />
 <br />
 Network Interface Card:  <br/>
 <img src="https://i.imgur.com/Sq2VZRU.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-New Windows 10 client:  <br/>
-<img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
-<br />
-<br />
-Open up the client and install Windows 10
-<br />
-<br />
 Installation of Windows 10:  <br/>
 <img src="https://i.imgur.com/9PAjbBI.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
-<br />
-<br />
-New Windows 10 client:  <br/>
-<img src="https://i.imgur.com/StH3Ro5.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
-<br />
-<br />
-Configured an Interal NIC for our Windows 10 client
 <br />
 <br />
 After Windows 10 is installed on our client, go to system, "Rename this PC(Advanced)" rename to, "CLIENT1" and join our domain
