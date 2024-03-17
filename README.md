@@ -7,8 +7,7 @@ We deploy Active Directory within a home lab setting using Oracle VirtualBox. By
 <h2>Languages and Utilities Used</h2>
 
 - <b>Oracle VirtualBox</b> 
-- <b>Active Directory</b> 
-- <b>PowerShell</b> 
+- <b>Active Directory</b>  
 
 <h2>Environments Used </h2>
 
