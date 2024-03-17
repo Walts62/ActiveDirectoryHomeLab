@@ -23,7 +23,7 @@ Launched VirtualBox and created our Windows Server client: <br/>
 <img src="https://i.imgur.com/vkRVDVc.png" height="80%" width="80%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Configured two Network Interface Cards (NIC), one will connect our domain controller to the external network (which will run NAT), while the second will connect to the internal VM network.
+Configured two Network Interface Cards (NIC), one will connect our domain controller to the external network (which will run NAT), while the second will connect to the internal VM network
 <br />
 <br />
 First Network Interface Card:  <br/>
@@ -41,14 +41,14 @@ Installation of Windows Server 2019:  <br/>
 <img src="https://i.imgur.com/lnwZDSV.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-After setup, we opened the network settings to view our NICs. 
+After setup, we opened the network settings to view our NICs
 <br />
 <br />
 Network Interface Cards:  <br/>
 <img src="https://i.imgur.com/iToGcKc.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-You will be able to distinguish each NIC from each other by seeing that the secondary NIC has a 169.254.x.x address (an Automatic Private IP Address [APIPA]). This lets us know this will be our internal network card, it will be assigned an IP address and DNS.
+You will be able to distinguish each NIC from each other by seeing that the secondary NIC has a 169.254.x.x address (an Automatic Private IP Address [APIPA]). This lets us know this will be our internal network card, it will be assigned an IP address and DNS
 <br />
 <br />
 Secondary Network Interface Card Details:  <br/>
