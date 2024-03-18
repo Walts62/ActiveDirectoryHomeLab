@@ -145,7 +145,7 @@ New Scope:  <br/>
 <img src="https://i.imgur.com/5trsCbF.png" height="40%" width="40%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-After adding a new scope to the DHCP, it needs to be authorized DHCP to respond to client requests
+After adding a new scope to the DHCP, it needs to be authorized to respond to client requests
 <br />
 <br />
 Authorization:  <br/>
@@ -159,7 +159,7 @@ Populated Users:  <br/>
 <img src="https://i.imgur.com/2RlJDy6.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 <br />
 <br />
-Open up VirtualBox and create a new VM to house our Windows 10 Client
+Open up VirtualBox and create a new VM to house our Windows 10 client
 <br />
 <br />
 New Windows 10 client:  <br/>
