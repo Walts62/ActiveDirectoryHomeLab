@@ -201,6 +201,7 @@ Client Command Prompt:  <br/>
 Our client has now been connected to the domain and is recieving it's IP address from the DHCP of the domain controller and can succesfully ping the external network through our NAT configuration
 <br />
 <br />
+Successful Ping:  <br/>
 <img src="https://i.imgur.com/6yNzsaz.png" height="60%" width="60%" alt="ADDS_Client Steps"/>
 </p>
 <!--
